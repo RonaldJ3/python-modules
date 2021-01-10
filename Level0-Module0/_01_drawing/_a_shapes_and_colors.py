@@ -2,20 +2,21 @@ import turtle
 
 if __name__ == '__main__':
     window = turtle.Screen()
-    window.bgcolor('white')
+    window.color('white')
 
     # This code makes a new Turtle. Pick a new name for the turtle
-    my_turtle = turtle.Turtle()
+    my_turtle = turtle.Turtle(BoB)
 
     # Make your turtle's shape 'turtle', .shape('turtle')
-
+BoB.shape(turtle)
     # Set your turtle's speed using .speed(2)
-
+BoB.speed(2)
     # Set your turtle's color using .color('green') and .pencolor('blue')
-
+BoB.color(green)
+BoB.pencolor(blue)
     # Move your turtle forward using .forward(100)
     # TEST    Did your turtle move forward?
-
+BoB.forward(100)
     # Move your turtle left or right using .left(90) or .right(90)
 
     # Now put the forward and left/right code into a for loop to repeat 4 times.
