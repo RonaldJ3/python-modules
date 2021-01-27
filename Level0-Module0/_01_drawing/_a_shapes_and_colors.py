@@ -63,8 +63,12 @@ if __name__ == '__main__':
     BoB.color('purple')
     BoB.forward(100)
     BoB.right(90)
-    BoB
-
+    BoB.penup()
+    BoB.goto(-500,-200)
+    BoB.pendown()
+    BoB.begin_fill()
+    BoB.circle(130,100)
+    BoB.end_fill()
 
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
