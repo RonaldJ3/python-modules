@@ -15,14 +15,15 @@ def get_next_color(i):
 
 if __name__ == '__main__':
     window = turtle.Screen()
-    window.bgcolor('black')
+    window.bgcolor('dark grey')
     window.setup(width=0.75, height=0.9, startx=0, starty=0)
     pen = 5
     sides = 5
-    colors = ('red', 'blue', 'green', 'yellow', 'orange')
+    angle = 360/5
+    colors = ('black', 'white')
     
     # Make a new turtle
-    t = turtle.turtle
+    t = turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
     t.shape('turtle')
     # Set the turtle speed to max (0)
@@ -45,9 +46,9 @@ if __name__ == '__main__':
         # *hint .pencolor(get_next_color(i))
         t.pencolor(get_next_color(i))
         # Move the turtle forward by the loop variable, *hint .forward(i)
-        t.foreward(i)
+        t.forward(i)
         # Turn the turtle to the right by the angle variable + 1
-        t.rigth(sides + 1)
+        t.right(angle + 1)
     # Hide your turtle so you can see the pattern.
 
     # Check the pattern against the picture in the recipe. If it matches, you are done!
