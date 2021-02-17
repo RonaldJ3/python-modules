@@ -30,9 +30,9 @@ if __name__ == '__main__':
     t.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-    for i in range(1):
+    for i in range(41):
         # Set the turtle .fillcolor() to orange
-        t.fillcolor('orange')
+        t.fillcolor('red')
         # Call the turtle .begin_fill() function
         t.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
@@ -42,19 +42,19 @@ if __name__ == '__main__':
         t.forward(64)
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #                numbers will turn the turtle counter-clockwise.)
-        t.left(-85)
+        t.left(40)
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
         t.forward(flameSize)
         #                Turn the turtle to the right 170 degrees
-        t.right(-255)
+        t.right(170)
         #                Move the turtle the distance in the variable flameSize (again)
         t.forward(flameSize)
         #  TURN RIGHT    Turn the turtle 62 degrees to the right
-        
+        t. right(62)
         #  DRAW          Move the turtle the distance in the variable baseSize
-        
+        t.forward(200)
         # Call the turtle .end_fill() method
-        
+        t.end_fill()
     # Hide your turtle so you can see the pattern.
         
     # TEST   Run the program. Check that your shape is the same as the first
